@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+	background: #2D2926;
+}
+
+@font-face {
+	font-family: "MoonL";
+	src: url("fonts/Moon Light.otf");
+}
+
+h1{
+	text-align: center;
+}
+
+.content{
+	display: flex;
+	place-content: center;
+	margin-top: 12.5%;
+}
+
+.time{
+	width: 250px;
+	height: 250px;
+	margin: 25px;
+	text-align: center;
+	border: solid 5px aliceblue;
+}
+
+.number, .value{
+	margin: 0px;
+	position: relative;
+	top: 20%;
+	text-align: center;
+}
+
+.number{
+	font-family: "MoonL", sans-serif;
+	font-size: 100px;
+	color: aliceblue;
+}
+
+.value{
+	font-family: "MoonL", sans-serif;
+	font-size: 26px;
+	color: aliceblue;
+	top: 30%;
+}
+
+h1{
+	margin-top: 30px;
+	color: aliceblue;
+	font-family: "MoonL", sans-serif;
+	font-size: 50px;
+}
